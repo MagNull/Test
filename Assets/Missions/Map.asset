@@ -1,0 +1,1392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5748029473930176083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0414\u0430\u043B\u044C\u043D\u0438\u0435 \u0434\u0430\u043B\u0438"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 1110, y: 450}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0414\u0430\u043B\u044C\u043D\u0438\u0435 \u0434\u0430\u043B\u0438"
+  _preText: "\u0413\u043E\u0432\u043E\u0440\u044F\u0442, \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435
+    \u0447\u0430\u0439\u043A\u0438 \u0443\u043B\u0435\u0442\u0430\u044E\u0442 \u0440\u044B\u0431\u0430\u0447\u0438\u0442\u044C
+    \u0434\u0430\u043B\u0435\u043A\u043E \u043E\u0442 \u0431\u0435\u0440\u0435\u0433\u0430
+    \u0438 \u043D\u0435 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u044E\u0442\u0441\u044F.
+    \u041D\u0430\u0434\u043E \u0441\u043B\u0435\u0442\u0430\u0442\u044C \u043A \u043D\u0438\u043C
+    \u0438 \u0440\u0430\u0441\u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043E
+    \u043F\u043E\u0434\u0440\u043E\u0431\u043D\u043E\u0441\u0442\u044F\u0445."
+  _mainText: "\u0414\u0430\u0436\u0435 \u0440\u0430\u0437\u0443\u043C\u043D\u044B\u0435
+    \u0447\u0430\u0439\u043A\u0438 \u0432\u043E\u0432\u0441\u0435 \u043D\u0435 \u0445\u043E\u0442\u044F\u0442
+    \u043F\u0443\u0441\u043A\u0430\u0442\u044C \u043A \u0441\u0435\u0431\u0435 \u0447\u0443\u0436\u0430\u043A\u0430
+    \u0438 \u044F\u0440\u043E\u0441\u0442\u043D\u043E \u0437\u0430\u0449\u0438\u0449\u0430\u044E\u0442
+    \u0433\u043D\u0435\u0437\u0434\u043E\u0432\u044C\u044F. \u0412\u0435\u0440\u0445\u043E\u0432\u043D\u044B\u0439
+    \u0427\u0430\u0439 \u043D\u0435 \u0434\u0430\u0451\u0442 \u0433\u0435\u0440\u043E\u044E
+    \u0430\u0443\u0434\u0438\u0435\u043D\u0446\u0438\u0438. \u041D\u043E \u0435\u043C\u0443
+    \u0443\u0434\u0430\u0451\u0442\u0441\u044F \u0437\u0430\u0432\u043E\u0435\u0432\u0430\u0442\u044C
+    \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435 \u0427\u0430\u0439\u043A\u0438
+    \u2014\_\u043C\u043E\u043B\u043E\u0434\u043E\u0439 \u043D\u0430\u0441\u043B\u0435\u0434\u043D\u0438\u0446\u044B
+    \u043F\u043B\u0435\u043C\u0435\u043D\u0438. \u041E\u043D\u0430 \u043F\u0440\u0438\u0437\u043D\u0430\u0451\u0442\u0441\u044F,
+    \u0447\u0442\u043E \u043E\u0445\u043E\u0442\u043D\u0438\u043A\u0438 \u043F\u0440\u0430\u0432\u0434\u0430
+    \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u044E\u0442 \u0432 \u043C\u043E\u0440\u0435,
+    \u0430 \u043F\u043B\u0435\u043C\u044F \u044D\u0442\u043E \u0437\u0430\u043C\u0430\u043B\u0447\u0438\u0432\u0430\u0435\u0442.
+    \u0427\u0430\u0439\u043A\u0430 \u0445\u043E\u0447\u0435\u0442 \u0432\u043C\u0435\u0441\u0442\u0435
+    \u0441 \u043D\u0430\u043C\u0438 \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+    \u0432 \u043F\u0440\u0438\u0447\u0438\u043D\u0430\u0445."
+  _playerFractions: 07000000
+  _enemyFractions: 06000000
+  _requiredMissions:
+  - {fileID: 6287006123610769999}
+  _unlockCondition: 0
+  _temporaryLockingMissions:
+  - {fileID: 1936878757473079565}
+  _selectedHeroPointReward: 5
+  _heroReward:
+  - {fileID: 11400000, guid: fd0781af3e887144fb233eedf7e0eaf3, type: 2}
+--- !u!114 &-2998478749880206914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u041D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u0435 \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u0430"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 6
+      Data: 
+    - Name: Item2
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 6
+      Data: 
+    - Name: Item2
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 6
+      Data: 
+    - Name: Item2
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 6
+      Data: 
+    - Name: Item2
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 960, y: 750}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u041D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u0435 \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u0430"
+  _preText: "\u0412\u043D\u0435\u0437\u0430\u043F\u043D\u043E \u043D\u0430 \u0430\u0432\u0430\u043D\u043F\u043E\u0441\u0442
+    \u041F\u0442\u0438\u0447\u044C\u0435\u0433\u043E \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u0430
+    \u043D\u0430\u043F\u0430\u0434\u0430\u0435\u0442 \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442
+    (\u0421\u043E\u0432\u0443\u0445 \u0438\u043B\u0438 \u0412\u043E\u0440\u043E\u043D
+    \u2014\_\u0442\u043E\u0442 \u0438\u0437 \u0434\u0432\u0443\u0445, \u043A\u043E\u0433\u043E
+    \u043C\u044B \u043D\u0435 \u0440\u0435\u043A\u0440\u0443\u0442\u0438\u0440\u043E\u0432\u0430\u043B\u0438)!
+    \u041E\u043D \u0432\u0435\u0434\u0451\u0442 \u0441\u0435\u0431\u044F \u0431\u0435\u0437\u0443\u043C\u043D\u043E,
+    \u043D\u0430\u0437\u044B\u0432\u0430\u0435\u0442 \u0441\u0435\u0431\u044F \u0421\u0438\u043C\u0443\u0440\u0433\u043E\u043C
+    \u0438 \u043D\u0438\u043A\u043E\u0433\u043E \u043D\u0435 \u0449\u0430\u0434\u0438\u0442!
+    \u0417\u0430\u0449\u0438\u0449\u0430\u0439\u0442\u0435\u0441\u044C!"
+  _mainText: "\u0413\u0435\u0440\u043E\u0439 \u0432\u043C\u0435\u0441\u0442\u0435
+    \u0441 \u0442\u043E\u0439 \u0444\u0440\u0430\u043A\u0446\u0438\u0435\u0439, \u043A\u043E\u0442\u043E\u0440\u043E\u0439
+    \u043E\u043D \u043A\u043E\u0433\u0434\u0430-\u0442\u043E \u043F\u043E\u043C\u043E\u0433,
+    \u0437\u0430\u0449\u0438\u0449\u0430\u0435\u0442\u0441\u044F \u043E\u0442 \u043D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u044F
+    \u2014 \u043D\u043E \u043D\u0435 \u0443\u0431\u0438\u0432\u0430\u0435\u0442 \u043E\u0431\u0435\u0437\u0443\u043C\u0435\u0432\u0448\u0435\u0433\u043E
+    \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u0430, \u0430 \u043F\u043B\u0435\u043D\u044F\u0435\u0442
+    \u0435\u0433\u043E. \u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0432 \u0437\u0430\u0434\u043E\u043C
+    \u043D\u0430\u043F\u0435\u0440\u0451\u0434 \u0434\u0440\u0435\u0432\u043D\u0438\u0435
+    \u0440\u0443\u043D\u044B \u0441 \u043A\u0430\u043C\u043D\u0435\u0439, \u0433\u0435\u0440\u043E\u0439
+    \u043E\u0441\u0432\u043E\u0431\u043E\u0436\u0434\u0430\u0435\u0442 \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u0430
+    \u043E\u0442 \u043F\u043E\u043C\u0440\u0430\u0447\u0435\u043D\u0438\u044F.\r\n\r\n\u0422\u043E\u0442
+    \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442, \u0447\u0442\u043E
+    \u043F\u0442\u0438\u0446 \u043D\u0435 \u043F\u043E\u0445\u0438\u0449\u0430\u044E\u0442
+    \u2014 \u043E\u043D\u0438 \u0443\u043B\u0435\u0442\u0430\u044E\u0442 \u0441\u0430\u043C\u0438
+    \u043D\u0430 \u0433\u043E\u043B\u043E\u0441 \u0421\u0438\u043C\u0443\u0440\u0433\u0430,
+    \u0434\u0440\u0435\u0432\u043D\u0435\u0433\u043E \u0431\u043E\u0433\u0430, \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+    \u0440\u0430\u0437\u0443\u043C\u0430 \u043F\u0442\u0438\u0446. \u0418 \u0434\u043E\u0431\u0440\u043E\u0432\u043E\u043B\u044C\u043D\u043E
+    \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0442\u0441\u044F \u0435\u0433\u043E
+    \u0447\u0430\u0441\u0442\u044C\u044E. \u041D\u043E \u0421\u0438\u043C\u0443\u0440\u0433
+    \u043E\u0431\u043C\u0430\u043D\u0443\u043B \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u0430,
+    \u043E\u0431\u0435\u0449\u0430\u0432 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C
+    \u0435\u043C\u0443 \u0440\u0430\u0437\u0443\u043C\u2026 \u0438 \u0442\u0435\u043F\u0435\u0440\u044C
+    \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442 \u0445\u043E\u0447\u0435\u0442
+    \u043F\u043E\u043A\u0432\u0438\u0442\u0430\u0442\u044C\u0441\u044F!"
+  _playerFractions: 07000000
+  _enemyFractions: 07000000
+  _requiredMissions:
+  - {fileID: 7977093794904540093}
+  - {fileID: -2224203173521457142}
+  - {fileID: -2553195924809114281}
+  _unlockCondition: 1
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward:
+  - {fileID: 11400000, guid: b48a349d373dda34e9f3b9753f297f45, type: 2}
+  - {fileID: 11400000, guid: d9ddc9ac5f101c54c86c2a3a3d65bfe4, type: 2}
+--- !u!114 &-2553195924809114281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0420\u0435\u043A\u0440\u0443\u0442\u0438\u043D\u0433 \u0421\u043E\u0432\u0443\u0445\u0430"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 610, y: 600}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0420\u0435\u043A\u0440\u0443\u0442\u0438\u043D\u0433 \u0421\u043E\u0432\u0443\u0445\u0430"
+  _preText: "\u0413\u0435\u0440\u043E\u0439 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+    \u0432 \u0441\u0430\u043C\u044B\u0435 \u0434\u0435\u0431\u0440\u0438 \u0427\u0430\u0449\u0438
+    \u043D\u0430 \u043F\u043E\u0438\u0441\u043A\u0438 \u0421\u043E\u0432\u0443\u0445\u0430.
+    \u0427\u0442\u043E \u0442\u043E\u0442 \u0443\u0437\u043D\u0430\u043B \u043E \u0441\u0442\u0440\u0430\u043D\u043D\u043E\u0439
+    \u043C\u0430\u0433\u0438\u0438 \u0432 \u0433\u043B\u0443\u0431\u0438\u043D\u0435
+    \u043B\u0435\u0441\u043E\u0432?"
+  _mainText: "\u041C\u0438\u0441\u0441\u0438\u044F-\u0433\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043A\u0430.
+    \u0421\u043E\u0432\u0443\u0445 \u043F\u043E\u0442\u0435\u0440\u044F\u043B \u043F\u0430\u043C\u044F\u0442\u044C
+    \u0438 \u043D\u0430\u043F\u0430\u0434\u0430\u0435\u0442 \u043D\u0430 \u043D\u0430\u0441,
+    \u0430 \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 \u043D\u0438\u043C \u2014
+    \u0434\u0440\u0443\u0433\u0438\u0435 \u0441\u043E\u0432\u044B \u0438\u0437 \u0433\u043B\u0443\u0431\u0438\u043D
+    \u0427\u0430\u0449\u0438. \u041D\u0430\u0434\u043E \u043F\u043E\u0431\u0435\u0434\u0438\u0442\u044C
+    \u043E\u0445\u0440\u0430\u043D\u0443 \u0447\u0435\u0442\u044B\u0440\u0451\u0445
+    \u0440\u0443\u043D\u043D\u044B\u0445 \u043A\u0430\u043C\u043D\u0435\u0439 \u0438
+    \u043F\u0440\u0438 \u044D\u0442\u043E\u043C \u043D\u0435 \u0443\u0431\u0438\u0442\u044C
+    \u0421\u043E\u0432\u0443\u0445\u0430, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+    \u0431\u0443\u0434\u0435\u0442 \u043F\u044B\u0442\u0430\u0442\u044C\u0441\u044F
+    \u043D\u0430 \u043D\u0430\u0441 \u043D\u0430\u043F\u0430\u0434\u0430\u0442\u044C.\r\n\r\n\u041A\u043E\u0433\u0434\u0430
+    \u043C\u044B \u0440\u0443\u0448\u0438\u043C \u043A\u0430\u043C\u043D\u0438, \u0421\u043E\u0432\u0443\u0445
+    \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442 \u0432 \u0441\u0435\u0431\u044F.
+    \u041D\u0430 \u043D\u0435\u0433\u043E \u043D\u0430\u0448\u043B\u043E \u043A\u0430\u043A\u043E\u0435-\u0442\u043E
+    \u043F\u043E\u043C\u0440\u0430\u0447\u0435\u043D\u0438\u0435\u2026 \u043E\u043D
+    \u0441\u043B\u044B\u0448\u0430\u043B \u0433\u043E\u043B\u043E\u0441 \u0431\u043E\u0433\u0430,
+    \u043F\u0440\u0438\u0437\u044B\u0432\u0430\u0432\u0448\u0435\u0433\u043E \u0441\u0442\u0430\u0442\u044C
+    \u0435\u0433\u043E \u0447\u0430\u0441\u0442\u044C\u044E. \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u043D\u044B\u0439
+    \u0437\u0430 \u0441\u043F\u0430\u0441\u0435\u043D\u0438\u0435, \u0421\u043E\u0432\u0443\u0445
+    \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u044F\u0435\u0442\u0441\u044F
+    \u043A \u043F\u0430\u0440\u0442\u0438\u0438."
+  _playerFractions: 07000000
+  _enemyFractions: 01000000
+  _requiredMissions:
+  - {fileID: -172666064906741056}
+  _unlockCondition: 0
+  _temporaryLockingMissions:
+  - {fileID: 6906688335681861169}
+  _selectedHeroPointReward: 5
+  _heroReward:
+  - {fileID: 11400000, guid: b48a349d373dda34e9f3b9753f297f45, type: 2}
+--- !u!114 &-2224203173521457142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0420\u0435\u043A\u0440\u0443\u0442\u0438\u043D\u0433 \u0412\u043E\u0440\u043E\u043D\u0430"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 960, y: 600}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0420\u0435\u043A\u0440\u0443\u0442\u0438\u043D\u0433 \u0412\u043E\u0440\u043E\u043D\u0430"
+  _preText: "\u0421\u0435\u043C\u044C\u044F \u0412\u043E\u0440\u043E\u043D\u0430
+    \u043F\u043E\u0433\u0438\u0431\u043B\u0430 \u043F\u0440\u0438 \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0445
+    \u043E\u0431\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430\u0445.
+    \u0421\u0430\u043C \u0436\u0435 \u043E\u043D \u0443\u043B\u0435\u0442\u0435\u043B
+    \u0432 \u0434\u0430\u043B\u044C\u043D\u0438\u0435 \u043F\u043E\u043B\u044F \u2014
+    \u0432\u043E\u0435\u0432\u0430\u0442\u044C \u0441\u043E \u0441\u0442\u0435\u043F\u043D\u044B\u043C\u0438
+    \u042F\u0441\u0442\u0440\u0435\u0431\u0430\u043C\u0438 \u0438 \u0437\u0430\u0431\u044B\u0432\u0430\u0442\u044C\u0441\u044F.
+    \u0427\u0442\u043E\u0431\u044B \u0435\u0433\u043E \u0440\u0430\u0441\u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C,
+    \u043F\u0440\u0438\u0434\u0451\u0442\u0441\u044F \u043F\u043E\u043C\u043E\u0447\u044C."
+  _mainText: "\u0413\u0435\u0440\u043E\u0439 \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442
+    \u0412\u043E\u0440\u043E\u043D\u0443 \u0432 \u0435\u0433\u043E \u043C\u0438\u0441\u0441\u0438\u0438
+    \u2014\_\u0437\u0430\u0447\u0438\u0441\u0442\u0438\u0442\u044C \u0430\u0432\u0430\u043D\u043F\u043E\u0441\u0442
+    \u0441\u0442\u0435\u043F\u043D\u044B\u0445 \u044F\u0441\u0442\u0440\u0435\u0431\u043E\u0432.
+    \u0412 \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u043D\u043E\u0441\u0442\u044C
+    \u0442\u043E\u0442 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u0442,
+    \u0447\u0442\u043E \u0435\u0433\u043E \u0441\u0435\u043C\u044C\u044F \u043D\u0435
+    \u043F\u043E\u0433\u0438\u0431\u043B\u0430, \u0430 \u043D\u0430\u0447\u0430\u043B\u0430
+    \u0441\u043B\u044B\u0448\u0430\u0442\u044C \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+    \u0433\u043E\u043B\u043E\u0441, \u0437\u0430\u043C\u0430\u043D\u0438\u0432\u0448\u0438\u0439
+    \u0438\u0445 \u043A\u0443\u0434\u0430-\u0442\u043E \u0432 \u0433\u043B\u0443\u0431\u0438\u043D\u0443
+    \u043C\u0430\u0442\u0435\u0440\u0438\u043A\u0430. \u0413\u043E\u043B\u043E\u0441
+    \u043D\u0430\u0437\u044B\u0432\u0430\u043B \u0441\u0435\u0431\u044F \u0431\u043E\u0433\u043E\u043C\u2026\r\n\r\n\u0412\u043E\u0440\u043E\u043D
+    \u0445\u043E\u0447\u0435\u0442 \u043E\u0442\u043E\u043C\u0441\u0442\u0438\u0442\u044C
+    \u0437\u0430 \u0441\u0435\u043C\u044C\u044E \u0438 \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u044F\u0435\u0442\u0441\u044F
+    \u043A \u043D\u0430\u0448\u0438\u043C \u043F\u043E\u0438\u0441\u043A\u0430\u043C."
+  _playerFractions: 02000000
+  _enemyFractions: 07000000
+  _requiredMissions:
+  - {fileID: -756844398300392309}
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward:
+  - {fileID: 11400000, guid: d9ddc9ac5f101c54c86c2a3a3d65bfe4, type: 2}
+--- !u!114 &-756844398300392309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0412\u043E\u0440\u043E\u043D\u044B \u043F\u0440\u043E\u0442\u0438\u0432
+    \u0441\u043E\u0432"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[HeroInfrastructure.Fraction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 1
+    - Name: Item2
+      Entry: 3
+      Data: -10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 810, y: 450}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0412\u043E\u0440\u043E\u043D\u044B \u043F\u0440\u043E\u0442\u0438\u0432
+    \u0441\u043E\u0432"
+  _preText: "\u0412 \u0427\u0430\u0449\u0435 \u0442\u0435\u043C\u043D\u043E \u0438
+    \u043C\u0448\u0438\u0441\u0442\u043E. \u0413\u0435\u0440\u043E\u0439 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+    \u0432\u044B\u044F\u0441\u043D\u044F\u0442\u044C, \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u044E\u0442
+    \u043B\u0438 \u043F\u0442\u0438\u0446\u044B \u0442\u0430\u043C. \u041D\u043E
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0435\u0442, \u0447\u0442\u043E
+    \u0412\u043E\u0440\u043E\u043D\u044B \u0434\u043E\u0431\u0440\u0430\u043B\u0438\u0441\u044C
+    \u0434\u043E \u0427\u0430\u0449\u0438 \u043F\u0435\u0440\u0432\u044B\u043C\u0438:
+    \u043E\u043D\u0438 \u0445\u043E\u0442\u044F\u0442 \u0432\u044B\u0441\u0435\u043B\u0438\u0442\u044C
+    \u0421\u043E\u0432 \u0438 \u0437\u0430\u0445\u0432\u0430\u0442\u0438\u0442\u044C
+    \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435 \u0443\u0433\u043E\u0434\u044C\u044F
+    \u0441\u0435\u0431\u0435.\r\n\r\n\u0412\u043E\u0440\u043E\u043D\u044B \u043D\u0430\u043C\u043D\u043E\u0433\u043E
+    \u0443\u043C\u043D\u0435\u0435 \u0421\u043E\u0432. \u041E\u043D\u0438 \u043E\u0434\u043D\u0438
+    \u0441\u043C\u043E\u0433\u0443\u0442 \u0432 \u043F\u043E\u043B\u043D\u043E\u0439
+    \u043C\u0435\u0440\u0435 \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+    \u0432 \u0442\u0430\u0439\u043D\u0430\u0445 \u0427\u0430\u0449\u0438 \u2014\_\u0438
+    \u0435\u0441\u043B\u0438 \u043F\u043E\u043C\u043E\u0447\u044C \u0438\u043C \u0432\u044B\u0433\u043D\u0430\u0442\u044C
+    \u0421\u043E\u0432, \u0441\u043E\u0433\u043B\u0430\u0441\u044F\u0442\u0441\u044F
+    \u043F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F \u043D\u0430\u0445\u043E\u0434\u043A\u0430\u043C\u0438
+    \u0441 \u043D\u0430\u043C\u0438."
+  _mainText: "\u0413\u0435\u0440\u043E\u0439 \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442
+    \u0412\u043E\u0440\u043E\u043D\u0430\u043C \u0432\u044B\u0431\u0438\u0442\u044C
+    \u0421\u043E\u0432 \u0438\u0437 \u0438\u0445 \u0434\u0443\u043F\u0435\u043B.
+    \u0412\u043E\u0440\u043E\u043D\u044B \u0438\u0441\u0441\u043B\u0435\u0434\u0443\u044E\u0442
+    \u0427\u0430\u0449\u0443 \u0438 \u0437\u0430\u043A\u043B\u044E\u0447\u0430\u044E\u0442,
+    \u0447\u0442\u043E \u043D\u0435\u0434\u0430\u0432\u043D\u043E \u0437\u0434\u0435\u0441\u044C
+    \u0442\u0432\u043E\u0440\u0438\u043B\u0430\u0441\u044C \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F
+    \u043C\u0430\u0433\u0438\u044F \u2014 \u0438\u043D\u043E\u0433\u0434\u0430 \u0432
+    \u043B\u0435\u0441\u043D\u043E\u0439 \u0447\u0430\u0449\u0435 \u0434\u0435\u0440\u0435\u0432\u044C\u044F
+    \u0438 \u043C\u043E\u0445 \u043E\u0436\u0438\u0432\u0430\u044E\u0442, \u0441\u0442\u0430\u043D\u043E\u0432\u044F\u0441\u044C
+    \u0431\u043E\u0433\u0430\u043C\u0438. \u0422\u0430\u043A\u043E\u0435 \u0437\u0430\u0441\u0442\u0430\u043B\u0430
+    \u0441\u0435\u043C\u044C\u044F \u043E\u0434\u043D\u043E\u0433\u043E \u0438\u0437
+    \u0412\u043E\u0440\u043E\u043D\u043E\u0432, \u043D\u043E \u043E\u043D \u043D\u0435
+    \u0443\u0447\u0430\u0441\u0442\u0432\u043E\u0432\u0430\u043B \u0432 \u043D\u0430\u043B\u0451\u0442\u0435."
+  _playerFractions: 02000000
+  _enemyFractions: 01000000
+  _requiredMissions:
+  - {fileID: 6287006123610769999}
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
+--- !u!114 &-172666064906741056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0412\u043E\u0440\u043E\u043D\u044B \u043F\u0440\u043E\u0442\u0438\u0432
+    \u0441\u043E\u0432"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[HeroInfrastructure.Fraction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 2
+    - Name: Item2
+      Entry: 3
+      Data: -10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 760, y: 450}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0412\u043E\u0440\u043E\u043D\u044B \u043F\u0440\u043E\u0442\u0438\u0432
+    \u0441\u043E\u0432"
+  _preText: "\u0412 \u0427\u0430\u0449\u0435 \u0442\u0435\u043C\u043D\u043E \u0438
+    \u043C\u0448\u0438\u0441\u0442\u043E. \u0413\u0435\u0440\u043E\u0439 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+    \u0432\u044B\u044F\u0441\u043D\u044F\u0442\u044C, \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u044E\u0442
+    \u043B\u0438 \u043F\u0442\u0438\u0446\u044B \u0442\u0430\u043C. \u041D\u043E
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0435\u0442, \u0447\u0442\u043E
+    \u0412\u043E\u0440\u043E\u043D\u044B \u0434\u043E\u0431\u0440\u0430\u043B\u0438\u0441\u044C
+    \u0434\u043E \u0427\u0430\u0449\u0438 \u043F\u0435\u0440\u0432\u044B\u043C\u0438:
+    \u043E\u043D\u0438 \u0445\u043E\u0442\u044F\u0442 \u0432\u044B\u0441\u0435\u043B\u0438\u0442\u044C
+    \u0421\u043E\u0432 \u0438 \u0437\u0430\u0445\u0432\u0430\u0442\u0438\u0442\u044C
+    \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435 \u0443\u0433\u043E\u0434\u044C\u044F
+    \u0441\u0435\u0431\u0435.\r\n\r\n\u0422\u043E\u043B\u044C\u043A\u043E \u043C\u0435\u0441\u0442\u043D\u044B\u0435
+    \u043E\u0431\u0438\u0442\u0430\u0442\u0435\u043B\u0438 \u0437\u043D\u0430\u044E\u0442
+    \u0432\u0441\u0435 \u0442\u0430\u0439\u043D\u044B \u0427\u0430\u0449\u0438. \u0415\u0441\u043B\u0438
+    \u043F\u043E\u043C\u043E\u0447\u044C \u0421\u043E\u0432\u0430\u043C \u043E\u0442\u0431\u0438\u0442\u044C
+    \u0430\u0442\u0430\u043A\u0443, \u043E\u043D\u0438 \u043D\u0430\u0432\u0435\u0440\u043D\u044F\u043A\u0430
+    \u0440\u0430\u0441\u0441\u043A\u0430\u0436\u0443\u0442 \u043E\u0431 \u0438\u0441\u0447\u0435\u0437\u043D\u043E\u0432\u0435\u043D\u0438\u044F\u0445
+    \u0431\u043E\u043B\u044C\u0448\u0435."
+  _mainText: "\u0413\u0435\u0440\u043E\u0439 \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442
+    \u0421\u043E\u0432\u0430\u043C \u043E\u0442\u0431\u0438\u0442\u044C \u043D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u0435
+    \u0412\u043E\u0440\u043E\u043D. \u0412 \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u043D\u043E\u0441\u0442\u044C
+    \u0421\u043E\u0432\u044B \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442
+    \u043B\u0435\u0433\u0435\u043D\u0434\u0443 \u043E \u0427\u0430\u0449\u0435: \u0433\u043E\u0432\u043E\u0440\u044F\u0442,
+    \u0432 \u0441\u0430\u043C\u043E\u0439 \u0433\u043B\u0443\u0431\u0438\u043D\u0435
+    \u041B\u0435\u0441\u0430 \u0437\u0435\u043C\u043B\u044F, \u0434\u0435\u0440\u0435\u0432\u044C\u044F
+    \u0438 \u043C\u043E\u0445 \u0438\u043D\u043E\u0433\u0434\u0430 \u043E\u0436\u0438\u0432\u0430\u044E\u0442
+    \u0438 \u0440\u043E\u0436\u0434\u0430\u044E\u0442 \u0431\u043E\u0433\u043E\u0432.
+    \u0411\u043E\u043B\u044C\u0448\u0435 \u0437\u043D\u0430\u0435\u0442 \u043C\u0443\u0434\u0440\u044B\u0439
+    \u0441\u0442\u0430\u0440\u044B\u0439 \u0421\u043E\u0432\u0443\u0445, \u043D\u043E
+    \u043E\u043D \u0441\u043F\u0438\u0442 \u0433\u043B\u0443\u0431\u043E\u043A\u043E
+    \u0432 \u0427\u0430\u0449\u0435."
+  _playerFractions: 01000000
+  _enemyFractions: 02000000
+  _requiredMissions:
+  - {fileID: 6287006123610769999}
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0215f4631d754149bfccfa88076a60fb, type: 3}
+  m_Name: Map
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -756844398300392309}
+    - {fileID: -172666064906741056}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _alternativeMissions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[MissionInfrastructure.MissionData, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[MissionInfrastructure.MissionData,
+        Assembly-CSharp]], mscorlib
+    - Name: Item1
+      Entry: 10
+      Data: 0
+    - Name: Item2
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _numberOfMissions: 12
+  _missions:
+  - {fileID: 6287006123610769999}
+  - {fileID: -5748029473930176083}
+  - {fileID: -172666064906741056}
+  - {fileID: -756844398300392309}
+  - {fileID: 7977093794904540093}
+  - {fileID: -2553195924809114281}
+  - {fileID: -2224203173521457142}
+  - {fileID: 1936878757473079565}
+  - {fileID: 6906688335681861169}
+  - {fileID: -2998478749880206914}
+  - {fileID: 1050268332804232569}
+  - {fileID: 6732755925852029641}
+--- !u!114 &1050268332804232569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0421\u0438\u043C\u0443\u0440\u0433 \u043F\u0440\u043E\u0441\u043D\u0443\u043B\u0441\u044F"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 960, y: 900}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0421\u0438\u043C\u0443\u0440\u0433 \u043F\u0440\u043E\u0441\u043D\u0443\u043B\u0441\u044F"
+  _preText: "\u041D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u0435 \u0410\u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u0430
+    \u0431\u044B\u043B\u043E \u043E\u0442\u0432\u043B\u0435\u043A\u0430\u044E\u0449\u0438\u043C
+    \u043C\u0430\u043D\u0451\u0432\u0440\u043E\u043C! \u041D\u0430 \u0433\u043B\u0430\u0432\u043D\u043E\u0435
+    \u0433\u043D\u0435\u0437\u0434\u043E \u0421\u043E\u0432\u0435\u0442\u0430 \u043D\u0430\u043F\u0430\u0434\u0430\u0435\u0442
+    \u0441\u0442\u0430\u044F \u0441\u0430\u043C\u044B\u0445 \u0440\u0430\u0437\u043D\u044B\u0445
+    \u043F\u0442\u0438\u0446. \u042D\u0442\u043E \u0421\u0438\u043C\u0443\u0440\u0433.
+    \u0418 \u043E\u043D \u043E\u0447\u0435\u043D\u044C \u0441\u0438\u043B\u0451\u043D."
+  _mainText: "\u041F\u043E\u0431\u0435\u0434\u0438\u0442\u044C \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0441\u044F
+    \u2014 \u043A \u0421\u0438\u043C\u0443\u0440\u0433\u0443 \u043F\u0440\u0438\u043C\u043A\u043D\u0443\u043B\u0438
+    \u0432\u0441\u0435 \u0432\u0438\u0434\u044B \u043F\u0442\u0438\u0446. \u041D\u0430\u0434\u043E
+    \u043E\u0431\u043E\u0440\u043E\u043D\u044F\u0442\u044C \u0441\u0442\u043E\u043B\u0438\u0446\u0443,
+    \u0434\u0430\u0432\u0430\u044F \u043C\u0438\u0440\u043D\u044B\u043C \u043F\u0442\u0438\u0446\u0430\u043C
+    \u0448\u0430\u043D\u0441 \u043E\u0442\u0441\u0442\u0443\u043F\u0438\u0442\u044C.\r\n\r\n\u0421\u043F\u0430\u0441\u0435\u043D\u043E
+    \u043C\u043D\u043E\u0433\u043E \u0436\u0438\u0437\u043D\u0435\u0439, \u043D\u043E
+    \u0441\u0442\u043E\u043B\u0438\u0446\u0430 \u0437\u0430\u0445\u0432\u0430\u0447\u0435\u043D\u0430\u2026"
+  _playerFractions: 07000000020000000600000001000000
+  _enemyFractions: 07000000020000000600000001000000
+  _requiredMissions:
+  - {fileID: -2998478749880206914}
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
+--- !u!114 &1936878757473079565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0423\u0442\u043A\u0438, \u0443\u0423\u0443"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[HeroInfrastructure.Fraction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 2
+    - Name: Item2
+      Entry: 3
+      Data: -15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[HeroInfrastructure.Fraction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 6
+    - Name: Item2
+      Entry: 3
+      Data: -15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 1300, y: 520}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0423\u0442\u043A\u0438, \u0443\u0423\u0443"
+  _preText: "\u0423\u0442\u043A\u0438 \u2014\_\u043C\u0438\u0440\u043D\u044B\u0439
+    \u043D\u0430\u0440\u043E\u0434. \u041E\u043D\u0438 \u043D\u0435 \u043B\u0435\u0437\u0443\u0442
+    \u0432 \u043F\u043E\u043B\u0438\u0442\u0438\u043A\u0443 \u0434\u0440\u0443\u0433\u0438\u0445
+    \u043F\u0442\u0438\u0446. \u0418\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E,
+    \u0430 \u0438\u0445 \u0442\u043E\u0436\u0435 \u043F\u043E\u0445\u0438\u0449\u0430\u044E\u0442?"
+  _mainText: "\u041D\u0430 \u0443\u0442\u043E\u043A \u043D\u0430\u043F\u0430\u043B\u0438
+    \u0447\u0430\u0439\u043A\u0438\u2026 \u0438 \u0432\u043E\u0440\u043E\u043D\u044B
+    \u2014\_\u0432\u043C\u0435\u0441\u0442\u0435! \u0421\u043E\u0432\u0435\u0442
+    \u043D\u0438\u043A\u043E\u0433\u0434\u0430 \u0440\u0430\u043D\u044C\u0448\u0435
+    \u0442\u0430\u043A\u043E\u0433\u043E \u043D\u0435 \u0432\u0438\u0434\u0435\u043B.
+    \u041F\u0440\u0438\u0434\u0451\u0442\u0441\u044F \u043E\u0442\u0431\u0438\u0432\u0430\u0442\u044C\u0441\u044F
+    \u043C\u0430\u043B\u044B\u043C \u043E\u0442\u0440\u044F\u0434\u043E\u043C. \u0418
+    \u0441\u0430\u043C\u0438 \u0443\u0442\u043A\u0438 \u043D\u0430\u043C \u043D\u0435
+    \u043F\u043E\u043C\u043E\u0433\u0443\u0442 \u2014\_\u043E\u043D\u0438 \u043D\u0435
+    \u0443\u043C\u0435\u044E\u0442 \u0432\u043E\u0435\u0432\u0430\u0442\u044C.\r\n\r\n\u0421\u043F\u0430\u0441\u0451\u043D\u043D\u044B\u0435
+    \u0443\u0442\u043A\u0438 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0442
+    \u043B\u0435\u0433\u0435\u043D\u0434\u0443 \u043E \u0421\u0438\u043C\u0443\u0440\u0433\u0435
+    \u2014 \u043F\u0442\u0438\u0446\u0435-\u0438\u0437-\u043F\u0442\u0438\u0446,
+    \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u043C \u043F\u0442\u0438\u0447\u044C\u0435\u043C
+    \u0440\u0430\u0437\u0443\u043C\u0435. \u041D\u043E \u044D\u0442\u043E \u043F\u0440\u043E\u0441\u0442\u043E
+    \u0434\u0435\u0442\u0441\u043A\u0430\u044F \u0441\u043A\u0430\u0437\u043A\u0430\u2026"
+  _playerFractions: 02000000
+  _enemyFractions: 0600000002000000
+  _requiredMissions: []
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
+--- !u!114 &6287006123610769999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u041F\u0435\u0440\u0435\u043F\u043E\u043B\u043E\u0445 \u0432 \u0433\u043D\u0435\u0437\u0434\u0435"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 960, y: 300}
+  _defaultStatus: 1
+  _image: {fileID: 0}
+  _title: "\u041F\u0435\u0440\u0435\u043F\u043E\u043B\u043E\u0445 \u0432 \u0433\u043D\u0435\u0437\u0434\u0435"
+  _preText: "\u0412 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435 \u0433\u043E\u0434\u044B
+    \u0432 \u043F\u0442\u0438\u0447\u044C\u0435\u043C \u043C\u0438\u0440\u0435 \u0442\u0432\u043E\u0440\u0438\u0442\u0441\u044F
+    \u0447\u0442\u043E-\u0442\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u043E\u0435.
+    \u041F\u0442\u0435\u043D\u0446\u044B \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u044E\u0442
+    \u0438\u0437 \u0433\u043D\u0435\u0437\u0434\u0430, \u043F\u0435\u0440\u0435\u043B\u0451\u0442\u043D\u044B\u0435
+    \u043F\u0442\u0438\u0446\u044B \u0443\u043B\u0435\u0442\u0430\u044E\u0442 \u0438
+    \u043D\u0435 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044F.
+    \u041F\u043E\u0441\u043B\u0435 \u0438\u0441\u0447\u0435\u0437\u043D\u043E\u0432\u0435\u043D\u0438\u044F
+    \u0446\u0435\u043B\u043E\u0433\u043E \u043A\u043B\u0430\u043D\u0430 \u0433\u0440\u0430\u0447\u0435\u0439
+    \u041F\u0442\u0438\u0447\u0438\u0439 \u0421\u043E\u0432\u0435\u0442 \u0440\u0435\u0448\u0438\u043B
+    \u0432\u0441\u0451-\u0442\u0430\u043A\u0438 \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F
+    \u0441 \u0438\u0441\u0447\u0435\u0437\u043D\u043E\u0432\u0435\u043D\u0438\u044F\u043C\u0438.\r\n\r\n\u0421\u043E\u0432\u0435\u0442
+    \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442 \u042F\u0441\u0442\u0440\u0435\u0431\u0430
+    \u0432 \u043B\u0435\u0441 \u0440\u0430\u0441\u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C
+    \u043F\u0442\u0438\u0446 \u043E \u0434\u0435\u0442\u0430\u043B\u044F\u0445."
+  _mainText: "\u041F\u0442\u0438\u0446\u044B \u043A\u0430\u043A \u0431\u0443\u0434\u0442\u043E
+    \u043F\u043E\u0442\u0435\u0440\u044F\u043B\u0438 \u0440\u0430\u0437\u0443\u043C
+    \u2014\_\u043E\u043D\u0438 \u0440\u0430\u0437\u0443\u0447\u0438\u043B\u0438\u0441\u044C
+    \u0440\u0430\u0437\u0433\u043E\u0432\u0430\u0440\u0438\u0432\u0430\u0442\u044C
+    \u0438 \u043D\u0430\u043F\u0430\u0434\u0430\u044E\u0442 \u043D\u0430 \u042F\u0441\u0442\u0440\u0435\u0431\u0430.
+    \u041C\u043D\u043E\u0433\u0438\u0435 \u0433\u043D\u0451\u0437\u0434\u0430 \u0437\u0430\u0431\u0440\u043E\u0448\u0435\u043D\u044B.
+    \u041D\u0435\u0441\u043E\u043C\u043D\u0435\u043D\u043D\u043E, \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442
+    \u0447\u0442\u043E-\u0442\u043E \u0443\u0436\u0430\u0441\u043D\u043E\u0435!"
+  _playerFractions: 00000000
+  _enemyFractions: 030000000400000005000000
+  _requiredMissions: []
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
+--- !u!114 &6732755925852029641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0424\u0435\u043D\u0438\u043A\u0441 \u043F\u0440\u043E\u0441\u043D\u0443\u043B\u0441\u044F"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 960, y: 1000}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0424\u0435\u043D\u0438\u043A\u0441 \u043F\u0440\u043E\u0441\u043D\u0443\u043B\u0441\u044F"
+  _preText: "\u041A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u0431\u044B, \u0432\u0441\u0451
+    \u043F\u043E\u0442\u0435\u0440\u044F\u043D\u043E, \u043D\u043E \u0447\u0442\u043E
+    \u044D\u0442\u043E? \u0418\u0437 \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0439
+    \u0420\u043E\u0449\u0438 \u0441\u043B\u044B\u0448\u0435\u043D \u043D\u043E\u0432\u044B\u0439
+    \u0433\u043E\u043B\u043E\u0441 \u2014 \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
+    \u0432 \u043E\u0442\u0432\u0435\u0442 \u043D\u0430 \u043F\u043E\u044F\u0432\u043B\u0435\u043D\u0438\u0435
+    \u0421\u0438\u043C\u0443\u0440\u0433\u0430 \u043F\u0440\u043E\u0441\u043D\u0443\u043B\u043E\u0441\u044C
+    \u043D\u043E\u0432\u043E\u0435 \u0431\u043E\u0436\u0435\u0441\u0442\u0432\u043E\u2026"
+  _mainText: "\u0413\u0435\u0440\u043E\u0439 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+    \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0443\u044E
+    \u0420\u043E\u0449\u0443 \u0432 \u043F\u043E\u0438\u0441\u043A\u0430\u0442\u044C
+    \u043D\u043E\u0432\u043E\u0433\u043E \u0441\u043E\u044E\u0437\u043D\u0438\u043A\u0430
+    \u2014\_\u0438 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0432\u0430\u0435\u0442
+    \u0442\u0430\u043C \u043F\u0442\u0438\u0446\u0443-\u0424\u0435\u043D\u0438\u043A\u0441\u0430.
+    \u0424\u0435\u043D\u0438\u043A\u0441\u044B \u043F\u0440\u043E\u0441\u044B\u043F\u0430\u044E\u0442\u0441\u044F,
+    \u043A\u043E\u0433\u0434\u0430 \u043C\u0438\u0440 \u0432 \u0441\u0435\u0440\u044C\u0451\u0437\u043D\u043E\u0439
+    \u0431\u0435\u0434\u0435. \u0421 \u043D\u0435\u043E\u0445\u043E\u0442\u043E\u0439
+    \u043E\u043D\u0438 \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u044E\u0442\u0441\u044F
+    \u043F\u043E\u043C\u043E\u0447\u044C\u2026"
+  _playerFractions: 07000000
+  _enemyFractions: 08000000
+  _requiredMissions:
+  - {fileID: 1050268332804232569}
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
+--- !u!114 &6906688335681861169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u041F\u0443\u0441\u0442\u0435\u043B\u044C\u0433\u0438 \u0445\u043E\u0442\u044F\u0442
+    \u0432\u043E\u0439\u043D\u044B"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[HeroInfrastructure.Fraction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 1
+    - Name: Item2
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[HeroInfrastructure.Fraction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 2
+    - Name: Item2
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.ValueTuple`2[[HeroInfrastructure.Fraction, Assembly-CSharp],[System.Int32,
+        mscorlib]], mscorlib
+    - Name: Item1
+      Entry: 3
+      Data: 6
+    - Name: Item2
+      Entry: 3
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 500, y: 750}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u041F\u0443\u0441\u0442\u0435\u043B\u044C\u0433\u0438 \u0445\u043E\u0442\u044F\u0442
+    \u0432\u043E\u0439\u043D\u044B"
+  _preText: "\u041F\u0443\u0441\u0442\u0435\u043B\u044C\u0433\u0438 \u2014\_\u0444\u0440\u0430\u043A\u0446\u0438\u044F
+    \u043E\u0440\u043B\u043E\u0432 \u2014 \u0445\u043E\u0442\u044F\u0442 \u0441\u0432\u043E\u0431\u043E\u0434\u044B
+    \u0438 \u0441\u0443\u0432\u0435\u0440\u0435\u043D\u0438\u0442\u0435\u0442\u0430.
+    \u041D\u043E \u0434\u043B\u044F \u0441\u043F\u0430\u0441\u0435\u043D\u0438\u044F
+    \u043F\u0442\u0438\u0446 \u043E\u0442 \u043D\u043E\u0432\u043E\u0439 \u0441\u0442\u0440\u0430\u043D\u043D\u043E\u0439
+    \u043D\u0430\u043F\u0430\u0441\u0442\u0438 \u043D\u0443\u0436\u043D\u044B \u0432\u0441\u0435
+    \u0441\u0438\u043B\u044B. \u041F\u0440\u0438\u0434\u0451\u0442\u0441\u044F \u043F\u0440\u0438\u0441\u0442\u0440\u0443\u043D\u0438\u0442\u044C
+    \u0441\u0435\u043F\u0430\u0440\u0430\u0442\u0438\u0441\u0442\u043E\u0432."
+  _mainText: "\u0413\u0435\u0440\u043E\u0439 \u043F\u0440\u0438\u0441\u0442\u0440\u0443\u043D\u044F\u0435\u0442
+    \u0441\u0435\u043F\u0430\u0440\u0430\u0442\u0438\u0441\u0442\u043E\u0432."
+  _playerFractions: 07000000
+  _enemyFractions: 07000000
+  _requiredMissions: []
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
+--- !u!114 &7977093794904540093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f913bdf033a49643a6fe1cbb568ddf9, type: 3}
+  m_Name: "\u0428\u0445\u0435\u0440\u044B"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _dependentPlayerFractions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _dependentEnemyFractions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.ValueTuple`2[[MissionInfrastructure.MissionData,
+        Assembly-CSharp],[HeroInfrastructure.Fraction, Assembly-CSharp]], mscorlib]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _pointsReward
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.ValueTuple`2[[HeroInfrastructure.Fraction,
+        Assembly-CSharp],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _screenPosition: {x: 1110, y: 600}
+  _defaultStatus: 0
+  _image: {fileID: 0}
+  _title: "\u0428\u0445\u0435\u0440\u044B"
+  _preText: "\u0420\u0430\u0437 \u0447\u0430\u0439\u043A\u0438 \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u044E\u0442
+    \u0434\u0430\u043B\u0435\u043A\u043E \u0432 \u043C\u043E\u0440\u0435 \u2014 \u0437\u043D\u0430\u0447\u0438\u0442,
+    \u043D\u0430\u0434\u043E \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F
+    \u0432\u0441\u043B\u0435\u0434 \u0437\u0430 \u043D\u0438\u043C\u0438 \u0438 \u043F\u043E\u0438\u0441\u043A\u0430\u0442\u044C,
+    \u043D\u0435 \u043E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u043B\u0438 \u043E\u0442
+    \u043D\u0438\u0445 \u0441\u043B\u0435\u0434\u043E\u0432."
+  _mainText: "\u041C\u0438\u0441\u0441\u0438\u044F-\u0433\u043E\u043B\u043E\u0432\u043E\u043B\u043E\u043C\u043A\u0430.
+    \u0413\u0435\u0440\u043E\u0439 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F
+    \u0434\u0430\u043B\u0435\u043A\u043E \u0432 \u043C\u043E\u0440\u0435, \u043D\u043E\u0447\u0443\u044F
+    \u043D\u0430 \u0448\u0445\u0435\u0440\u0430\u0445, \u043A\u0430\u043C\u043D\u044F\u0445
+    \u0438 \u043E\u0441\u0442\u0440\u043E\u0432\u043A\u0430\u0445. \u0418\u043D\u043E\u0433\u0434\u0430
+    \u0441 \u043D\u0438\u043C \u0441\u0440\u0430\u0436\u0430\u044E\u0442\u0441\u044F
+    \u043E\u0431\u0435\u0437\u0443\u043C\u0435\u0432\u0448\u0438\u0435 \u0447\u0430\u0439\u043A\u0438,
+    \u0437\u0430\u0431\u044B\u0432\u0448\u0438\u0435 \u0440\u0435\u0447\u044C.\r\n\r\n\u041D\u0430
+    \u043E\u0434\u043D\u043E\u0439 \u0438\u0437 \u0434\u0430\u043B\u044C\u043D\u0438\u0445
+    \u0448\u0445\u0435\u0440 \u0433\u0435\u0440\u043E\u0439 \u043D\u0430\u0445\u043E\u0434\u0438\u0442
+    \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0435 \u0440\u0443\u043D\u044B \u0438
+    \u0441\u043B\u0435\u0434\u044B \u043D\u0435\u043A\u043E\u0435\u0433\u043E \u0440\u0438\u0442\u0443\u0430\u043B\u0430!
+    \u0418\u0441\u0447\u0435\u0437\u043D\u043E\u0432\u0435\u043D\u0438\u0435 \u043F\u0442\u0438\u0446
+    \u2014\_\u044F\u0432\u043D\u043E \u043D\u0435 \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E\u0441\u0442\u044C,
+    \u0430 \u0447\u044C\u0451-\u0442\u043E \u0434\u0435\u044F\u043D\u0438\u0435!"
+  _playerFractions: 06000000
+  _enemyFractions: 06000000
+  _requiredMissions:
+  - {fileID: -5748029473930176083}
+  _unlockCondition: 0
+  _temporaryLockingMissions: []
+  _selectedHeroPointReward: 5
+  _heroReward: []
