@@ -115,7 +115,9 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: -756844398300392309}
+    - {fileID: -172666064906741056}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -134,11 +136,11 @@ MonoBehaviour:
       Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
         Assembly-CSharp]], mscorlib
     - Name: Item1
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: Item2
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -147,11 +149,11 @@ MonoBehaviour:
       Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
         Assembly-CSharp]], mscorlib
     - Name: Item1
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: Item2
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -174,11 +176,11 @@ MonoBehaviour:
       Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
         Assembly-CSharp]], mscorlib
     - Name: Item1
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: Item2
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -187,11 +189,11 @@ MonoBehaviour:
       Data: System.ValueTuple`2[[MissionInfrastructure.MissionData, Assembly-CSharp],[HeroInfrastructure.Fraction,
         Assembly-CSharp]], mscorlib
     - Name: Item1
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 1
     - Name: Item2
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: 
       Entry: 8
       Data: 

@@ -48,14 +48,14 @@ namespace MissionInfrastructure
             StatusChanged?.Invoke(this);
         }
 
-        public void CheckRequiredMissions(IReadOnlyMission completedMission)
+        public virtual void CheckRequiredMissions(IReadOnlyMission completedMission)
         {
-            if(Status != MissionStatus.Locked)
+            if (Status != MissionStatus.Locked)
                 return;
 
-            if (!_requiredMissions.Contains(completedMission)) 
+            if (!_requiredMissions.Contains(completedMission))
                 return;
-            
+
             _requiredMissions.Remove(completedMission);
             switch (BaseData.UnlockCondition)
             {
@@ -74,7 +74,7 @@ namespace MissionInfrastructure
                 .Where(dependent => dependent.DependentMission == completedMission.BaseData)
                 .Select(dependent => dependent.Fraction);
             _currentPlayerFractions.AddRange(playerFractions);
-            
+
             var enemyFractions = BaseData.DependentEnemyFractions
                 .Where(dependent => dependent.DependentMission == completedMission.BaseData)
                 .Select(dependent => dependent.Fraction);
@@ -86,7 +86,7 @@ namespace MissionInfrastructure
     {
         public event Action<IReadOnlyMission> StatusChanged;
         public MissionStatus Status { get; }
-        public IReadOnlyList<Fraction> CurrentPlayerFractions { get; } 
+        public IReadOnlyList<Fraction> CurrentPlayerFractions { get; }
         public IReadOnlyList<Fraction> CurrentEnemyFractions { get; }
         public MissionData BaseData { get; }
     }

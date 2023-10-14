@@ -9,6 +9,7 @@ namespace MissionInfrastructure
         private readonly Dictionary<MissionData, (Mission Model, MissionView View)> _missionDataMap;
         private readonly MapData _mapData;
         private bool _isInitialized;
+
         public GameMap(MapData mapData)
         {
             _mapData = mapData;
@@ -96,7 +97,7 @@ namespace MissionInfrastructure
                     if (mission is DoubleMission doubleMission &&
                         doubleMission.AlternativeMission.Status == MissionStatus.Complete)
                     {
-                        _missionDataMap[mission.BaseData].Model.ChangeStatus(MissionStatus.Locked);
+                        doubleMission.ChangeStatus(MissionStatus.Locked);
                     }
                     else
                     {
@@ -116,13 +117,19 @@ namespace MissionInfrastructure
                     {
                         temporaryLockingMission.Model.ChangeStatus(MissionStatus.Active);
                     }
-                    
+
                     foreach (var missionModel in _missionDataMap.Values)
                     {
                         missionModel.Model.CheckRequiredMissions(mission);
                         missionModel.Model.CheckDependentFractions(mission);
-                        if(missionModel.Model is DoubleMission doubleMission)
-                            doubleMission.CheckAlternativeMission(mission);
+                    }
+
+                    break;
+                case MissionStatus.TemporaryLocked:
+                    if (mission is DoubleMission mis &&
+                        mis.AlternativeMission.Status == MissionStatus.Complete)
+                    {
+                        mis.ChangeStatus(MissionStatus.Locked);
                     }
 
                     break;

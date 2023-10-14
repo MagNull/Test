@@ -12,7 +12,7 @@ namespace Utils
         private MissionView _missionViewPrefab;
         [SerializeField]
         private HeroView _heroViewPrefab;
-        
+
         [SerializeField]
         private MapData _mapData;
         [SerializeField]

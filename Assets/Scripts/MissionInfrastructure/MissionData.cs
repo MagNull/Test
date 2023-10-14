@@ -16,9 +16,8 @@ namespace MissionInfrastructure
 
         //Others
         public Vector2 ScreenPosition => _screenPosition;
+
         public MissionStatus DefaultStatus => _defaultStatus;
-        //public MissionType Type => _type;
-       // public MissionData AlternativeMission => _currentAlternativeMission;
 
         //Information
         public Sprite Image => _image;
@@ -61,20 +60,6 @@ namespace MissionInfrastructure
         [HideLabel]
         [Title("Default status", HorizontalLine = false, TitleAlignment = TitleAlignments.Centered)]
         private MissionStatus _defaultStatus;
-
-        // [SerializeField]
-        // [HorizontalGroup("Others/Split")]
-        // [HideLabel]
-        // [Title("Type", HorizontalLine = false, TitleAlignment = TitleAlignments.Centered)]
-        // [OnValueChanged(nameof(OnMissionTypeChanged))]
-        // private MissionType _type;
-        //
-        // [FormerlySerializedAs("alternativeMission")]
-        // [FormerlySerializedAs("_alternativeMission")]
-        // [SerializeField]
-        // [ShowIf("Type", MissionType.Double)]
-        // [OnValueChanged(nameof(OnAlternativeMissionChanged))]
-        // private MissionData _currentAlternativeMission;
 
         #endregion
 
@@ -179,7 +164,7 @@ namespace MissionInfrastructure
         private List<HeroBaseData> _heroReward = new();
 
         #endregion
-        
+
         private void OnTitleChanged()
         {
             name = Title == "" ? "Mission" : Title;

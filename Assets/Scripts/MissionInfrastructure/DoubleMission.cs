@@ -18,12 +18,25 @@ namespace MissionInfrastructure
             base.Init(requiredMissions);
         }
 
-        public void CheckAlternativeMission(IReadOnlyMission completedMission)
+        public override void CheckRequiredMissions(IReadOnlyMission completedMission)
         {
-            if (completedMission != _alternativeMission) 
+            if (CheckAlternativeComplete(completedMission))
                 return;
-            
+
+            base.CheckRequiredMissions(completedMission);
+        }
+
+        private bool CheckAlternativeComplete(IReadOnlyMission completedMission)
+        {
+            if (_alternativeMission.Status == MissionStatus.Complete &&
+                completedMission != _alternativeMission)
+                return true;
+
+            if (completedMission != _alternativeMission)
+                return false;
+
             ChangeStatus(MissionStatus.Locked);
+            return true;
         }
     }
 }
