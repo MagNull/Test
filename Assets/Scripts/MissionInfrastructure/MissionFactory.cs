@@ -11,11 +11,10 @@ namespace MissionInfrastructure
             _viewPrefab = viewPrefab;
         }
         
-        public (Mission model, MissionView view) Create(MissionData data)
+        public (Mission model, MissionView view) Create(MissionData data, MissionData alternative = null)
         {
-            var mission = new Mission(data);
-            var worldPosition = Camera.main.ScreenToWorldPoint(data.ScreenPosition) + Vector3.forward * 10f;
-            var view = Object.Instantiate(_viewPrefab, worldPosition, Quaternion.identity);
+            var mission = alternative == null ? new Mission(data) : new DoubleMission(data);
+            var view = Object.Instantiate(_viewPrefab);
             view.Init(mission);
 
             return (mission, view);

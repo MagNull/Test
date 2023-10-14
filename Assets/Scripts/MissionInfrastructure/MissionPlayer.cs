@@ -34,7 +34,7 @@ namespace MissionInfrastructure
         private IReadOnlyMission _selectedMission;
         
         
-        public void Init(List<MissionView> missionViews, GameMap map, HeroesPool heroesPool)
+        public void Init(IEnumerable<MissionView> missionViews, GameMap map, HeroesPool heroesPool)
         {
             if (_map != null)
             {

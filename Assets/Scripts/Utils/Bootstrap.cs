@@ -40,17 +40,8 @@ namespace Utils
 
         private void Init()
         {
-            var missionModels = new List<Mission>();
-            var missionModelsViews = new List<MissionView>();
-            foreach (var modelViewPair in _mapData.Missions.Select(
-                         missionData => _missionFactory.Create(missionData)))
-            {
-                missionModels.Add(modelViewPair.model);
-                missionModelsViews.Add(modelViewPair.view);
-            }
-
-            _gameMap.Init(missionModels);
-            _missionPlayer.Init(missionModelsViews, _gameMap, _heroesPool);
+            _gameMap.Init(_missionFactory);
+            _missionPlayer.Init(_gameMap.GetViews(), _gameMap, _heroesPool);
             _heroesPool.Init();
         }
     }

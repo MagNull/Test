@@ -5,7 +5,6 @@ using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Utils;
 
 namespace MissionInfrastructure
@@ -180,10 +179,7 @@ namespace MissionInfrastructure
         private List<HeroBaseData> _heroReward = new();
 
         #endregion
-
-        private MissionData _lastAlternativeMission;
-        private event Action<MissionType> MissionTypeChanged;
-
+        
         private void OnTitleChanged()
         {
             name = Title == "" ? "Mission" : Title;
